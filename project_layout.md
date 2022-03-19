@@ -57,3 +57,8 @@ Who knows what else
 # Finished
 + First-class module style abstraction for tube, concrete implementation
 in the form of processes
+
+# Need to do at some point
++ In remote, what happens if we just can't send everything for whatever reason?
+Need some kind of timeout
++ Also in remote, we can just recv until we get 0 bytes back then call it

@@ -6,4 +6,4 @@ module type Tube = sig
   val write : bytes -> int
 end
 
-val create_tube : 'metadata_type -> (int -> bytes) -> (int -> bytes) -> (bytes -> int) -> (module Tube with type t = 'metadata_type)
+val tube : 'metadata_type -> (int -> bytes) -> (int -> bytes) -> (bytes -> int) -> (module Tube with type t = 'metadata_type)

@@ -6,7 +6,7 @@ module type Tube = sig
   val write : bytes -> int
 end
 
-let create_tube (type a) metadata read read_error write =
+let tube (type a) metadata read read_error write =
   (module struct
     type t = a
     let metadata = metadata
