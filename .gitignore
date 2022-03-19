@@ -8,6 +8,9 @@
 *.cmxs
 *.cmxa
 
+# spacemacs specific
+.*~undo-tree~
+
 # ocamlbuild working directory
 _build/
 

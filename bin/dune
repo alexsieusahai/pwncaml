@@ -1,0 +1,4 @@
+(executable
+ (public_name pwncaml)
+ (name main)
+ (libraries pwncaml))

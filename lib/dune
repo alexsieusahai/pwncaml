@@ -1,0 +1,5 @@
+(library
+ (name pwncaml)
+ (public_name pwncaml)
+ (libraries core)
+ (preprocess (pps ppx_expect)))
